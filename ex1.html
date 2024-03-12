@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            img {
+                width: 160px;
+                height: 160px;
+            }
+            table {
+                width: 800px;
+                height: 200px;
+            }
+        </style>
+        <title>Songs recommendations</title>
+        <map name="NectarSpotify">
+            <area shape="default" href="https://open.spotify.com/album/5EzDhyNZuO7kuaABHwbBKX" target="_blank">
+        </map>
+        <map name="AFeverYouCantSweatOutSpotify">
+            <area shape="default" href="https://open.spotify.com/intl-pt/album/01hp4DvayKlnqUQrmk0vvz?si=5385c4df2ca74052" target="_blank">
+        </map>
+        <map name="RenaissanceSpotify">
+            <area shape="default" href="https://open.spotify.com/intl-pt/album/6FJxoadUE4JNVwWHghBwnb?si=e519dfb616ec46f6" target="_blank">
+        </map>
+        <map name="PositionsSpotify">
+            <area shape="default" href="https://open.spotify.com/intl-pt/track/35mvY5S1H3J2QZyna3TFe0?si=d260dfd8e7f24e23" target="_blank">
+        </map>
+        <map name="RandomAccessMemoriesSpotify">
+            <area shape="default" href="https://open.spotify.com/album/4mAhdh996uW5SnnFKXUmC0?si=__z2T_ofQieAhZWuDrVh_Q" target="_blank">
+        </map>
+    </head>
+    <body>
+        <p>In this page I'd like to display a few of my most listened songs on Spotify</p>
+        <p>Top 5 goes to:</p>
+        <ol type="1">
+            <li>Joji</li>
+            <li>Panic! At The Disco</li>
+            <li>Beyoncé</li>
+            <li>Ariana Grande</li>
+            <li>Daft Punk</li>
+        </ol>
+        <p>That top 5 covers very different genres of music</p>
+        <p>Next I'll display my favorite albums and songs from those artists</p>
+        <table>
+            <tr>
+              <th>Artist</th>
+              <th>Favorite song</th>
+              <th>Favorite albums</th>
+              <th></th>
+            </tr>
+            <tr>
+              <td>Joji</td>
+              <td>Will He</td>
+              <td>Nectar</td>
+              <td>
+                <img src="ex1images/nectar.jpg" alt="Nectar Album cover" usemap="#NectarSpotify">
+              </td>
+            </tr>
+            <tr>
+              <td>Panic! At The Disco</td>
+              <td>New Perspective</td>
+              <td>A Fever You Can't Sweat Out</td>
+              <td><img src="ex1images/A_Fever_You_Can't_Sweat_Out.jpg" alt="A Fever Ypi Cam't Sweat Out Album cover" usemap="#AFeverYouCantSweatOutSpotify"></td>
+            </tr>
+            <tr>
+              <td>Beyoncé</td>
+              <td>Alien Superstar</td>
+              <td>RENAISSANCE</td>
+              <td><img src="ex1images/Renaissance_-_Beyoncé.png" alt="RENAISSANCE Album cover" usemap="#RenaissanceSpotify"></td>
+            </tr>
+            <tr>
+              <td>Ariana Grande</td>
+              <td>34+35</td>
+              <td>Positions</td>
+              <td><img src="ex1images/ariana.jpg" alt="Positions Album cover" usemap="#PositionsSpotify"></td>
+            </tr>
+            <tr>
+              <td>Daft Punk</td>
+              <td>Something About Us</td>
+              <td>Random Access Memories</td>
+              <td><img src="ex1images/daft-punk-random-access-memories-artwork.jpg" alt="Random Acess Memories Album cover" usemap="#RandomAccessMemoriesSpotify"></td>
+            </tr>
+          </table>
+          <p>Recommend songs to me!</p>
+          <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">e-mail:</label><br>
+            <input type="text" id="email" name="email"><br>
+            <label for="artist">Artist:</label><br>
+            <input type="text" id="artist" name="artist"><br>
+            <label for="album">Album:</label><br>
+            <input type="text" id="album" name="album"><br>
+            <input type="submit"><br>
+          </form>
+    </body>
+</html>
